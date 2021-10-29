@@ -1,6 +1,6 @@
 # Duty and alert information in your Grafana dashboard
 
-Grafana is as open source analytics and interactive visualization application. You can connect different data sources to display chart and graphs or even trigger alerts.
+[Grafana](https://grafana.com/) is as open source analytics and interactive visualization application. You can connect different data sources to display chart and graphs or even [trigger alerts](https://www.signl4.com/de/portfolio_item/grafana-alarmierung-app-sms-voice/).
 
 Wouldn't it be great to add information about SIGNL4 alerts or about who is on call as part of your dashboard? In this case you immediately get an overview about open, acknowledged, and closed alerts per category. Of you can see wo it currently on duty.
 
@@ -9,7 +9,7 @@ Here is an example with a who-is-on call, and an alert overview panel.
 ![grafana-signl4-dashboard](grafana-signl4-dashboard.png)
 
 
-In order to display SIGNL4 data in Grafana we use the SIGNL4 REST API and the JSON API plugin for Grafana.
+In order to display SIGNL4 data in Grafana we use the [SIGNL4 REST API](https://connect.signl4.com/api/docs/index.html?urls.primaryName=SIGNL4%20API%20V2) and the [JSON API plugin](https://grafana.com/grafana/plugins/marcusolsson-json-datasource/) for Grafana.
 
 ## How does it work?
 
